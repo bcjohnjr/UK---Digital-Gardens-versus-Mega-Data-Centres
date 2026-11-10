@@ -1,0 +1,3 @@
+V32 proposed certification concept — Decarbonized Data Centre Community / Fossil Fuel Free Data Centre Community.
+
+The consumer-facing logo is a proposed, not certified, indicator tied to independently audited hourly electricity provenance, lifecycle emissions, water, metered heat use, and delivered community benefits. No zero-carbon or fossil-free claim is approved without third-party verification. A historic artwork showing “Zero Carbon” was intentionally excluded from this public/reviewer research release, because it would overstate the assessed lifecycle emissions. The branding concept and certification requirements are preserved in Article Section 4.4 and Supplement S13.

@@ -1,0 +1,114 @@
+[
+  {
+    "community": "Falstone",
+    "geocoded_name": "Falstone",
+    "latitude": 55.18058,
+    "longitude": -2.43589,
+    "location_kind": "town/municipal proxy, not project-site coordinate",
+    "coordinate_source": "approximate town-centre / area proxy"
+  },
+  {
+    "community": "Bellingham",
+    "geocoded_name": "Bellingham",
+    "latitude": 55.14437,
+    "longitude": -2.25493,
+    "location_kind": "town/municipal proxy, not project-site coordinate",
+    "coordinate_source": "approximate town-centre / area proxy"
+  },
+  {
+    "community": "Wark",
+    "geocoded_name": "Wark",
+    "latitude": 55.08816,
+    "longitude": -2.22073,
+    "location_kind": "town/municipal proxy, not project-site coordinate",
+    "coordinate_source": "approximate town-centre / area proxy"
+  },
+  {
+    "community": "Barrasford",
+    "geocoded_name": "Barrasford",
+    "latitude": 55.05536,
+    "longitude": -2.13264,
+    "location_kind": "town/municipal proxy, not project-site coordinate",
+    "coordinate_source": "approximate town-centre / area proxy"
+  },
+  {
+    "community": "Chollerford",
+    "geocoded_name": "Chollerford",
+    "latitude": 55.03112,
+    "longitude": -2.12835,
+    "location_kind": "town/municipal proxy, not project-site coordinate",
+    "coordinate_source": "approximate town-centre / area proxy"
+  },
+  {
+    "community": "Haydon Bridge",
+    "geocoded_name": "Haydon Bridge",
+    "latitude": 54.97284,
+    "longitude": -2.24496,
+    "location_kind": "town/municipal proxy, not project-site coordinate",
+    "coordinate_source": "approximate town-centre / area proxy"
+  },
+  {
+    "community": "Hexham",
+    "geocoded_name": "Hexham",
+    "latitude": 54.97148,
+    "longitude": -2.10179,
+    "location_kind": "town/municipal proxy, not project-site coordinate",
+    "coordinate_source": "approximate town-centre / area proxy"
+  },
+  {
+    "community": "Corbridge",
+    "geocoded_name": "Corbridge",
+    "latitude": 54.97402,
+    "longitude": -2.01755,
+    "location_kind": "town/municipal proxy, not project-site coordinate",
+    "coordinate_source": "approximate town-centre / area proxy"
+  },
+  {
+    "community": "Kielder upland wind proxy",
+    "geocoded_name": "Kielder upland wind proxy",
+    "latitude": 55.23,
+    "longitude": -2.58,
+    "location_kind": "town/municipal proxy, not project-site coordinate",
+    "coordinate_source": "approximate town-centre / area proxy"
+  },
+  {
+    "community": "Wark Forest wind proxy",
+    "geocoded_name": "Wark Forest wind proxy",
+    "latitude": 55.1,
+    "longitude": -2.4,
+    "location_kind": "town/municipal proxy, not project-site coordinate",
+    "coordinate_source": "approximate town-centre / area proxy"
+  },
+  {
+    "community": "Ridsdale Ray wind proxy",
+    "geocoded_name": "Ridsdale Ray wind proxy",
+    "latitude": 55.15,
+    "longitude": -2.08,
+    "location_kind": "town/municipal proxy, not project-site coordinate",
+    "coordinate_source": "approximate town-centre / area proxy"
+  },
+  {
+    "community": "Northumberland coast wind proxy",
+    "geocoded_name": "Northumberland coast wind proxy",
+    "latitude": 55.2,
+    "longitude": -1.55,
+    "location_kind": "town/municipal proxy, not project-site coordinate",
+    "coordinate_source": "approximate town-centre / area proxy"
+  },
+  {
+    "community": "Cobalt Park comparator",
+    "geocoded_name": "Cobalt Park comparator",
+    "latitude": 55.028,
+    "longitude": -1.525,
+    "location_kind": "town/municipal proxy, not project-site coordinate",
+    "coordinate_source": "approximate town-centre / area proxy"
+  },
+  {
+    "community": "Cambois Blyth comparator",
+    "geocoded_name": "Cambois Blyth comparator",
+    "latitude": 55.15,
+    "longitude": -1.53,
+    "location_kind": "town/municipal proxy, not project-site coordinate",
+    "coordinate_source": "approximate town-centre / area proxy"
+  }
+]

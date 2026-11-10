@@ -1,0 +1,14 @@
+{
+  "retrieved_utc": "2026-11-05T19:56:03.161412+00:00",
+  "years": [
+    2018,
+    2025
+  ],
+  "region_id": 4,
+  "errors": [],
+  "rows": {
+    "regional": 132934,
+    "national": 140495,
+    "price": 138355
+  }
+}
