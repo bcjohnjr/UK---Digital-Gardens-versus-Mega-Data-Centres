@@ -1,0 +1,52 @@
+{
+  "central: all surplus at hourly price": {
+    "export_gwh": 1021.0416700693381,
+    "curtailed_gwh": 36.21343877214845,
+    "export_value_gbp": 74108244.43113214,
+    "energy_gbp_mwh": 101.0913406761313,
+    "peak_export_mw": 809.3463798697699,
+    "cap_mw": null,
+    "price_share": 1.0,
+    "constraint": 0.0
+  },
+  "merchant PPA: 90% of hourly price, 5% constraint curtailment": {
+    "export_gwh": 969.9895865658713,
+    "curtailed_gwh": 87.26552227561537,
+    "export_value_gbp": 63362548.98861797,
+    "energy_gbp_mwh": 113.19753876196144,
+    "peak_export_mw": 809.3463798697699,
+    "cap_mw": null,
+    "price_share": 0.9,
+    "constraint": 0.05
+  },
+  "export capped at 600 MW": {
+    "export_gwh": 1018.6948043453204,
+    "curtailed_gwh": 38.560304496166296,
+    "export_value_gbp": 74010595.40163985,
+    "energy_gbp_mwh": 101.20135295967746,
+    "peak_export_mw": 809.3463798697699,
+    "cap_mw": 600.0,
+    "price_share": 1.0,
+    "constraint": 0.0
+  },
+  "export capped at 400 MW, merchant PPA terms": {
+    "export_gwh": 929.4592090002078,
+    "curtailed_gwh": 127.7958998412784,
+    "export_value_gbp": 61295706.80683368,
+    "energy_gbp_mwh": 115.52606193653745,
+    "peak_export_mw": 809.3463798697699,
+    "cap_mw": 400.0,
+    "price_share": 0.9,
+    "constraint": 0.05
+  },
+  "export capped at 200 MW, merchant PPA terms": {
+    "export_gwh": 708.732400160391,
+    "curtailed_gwh": 348.5227086810957,
+    "export_value_gbp": 47637746.39446531,
+    "energy_gbp_mwh": 130.91324418873347,
+    "peak_export_mw": 809.3463798697699,
+    "cap_mw": 200.0,
+    "price_share": 0.9,
+    "constraint": 0.05
+  }
+}

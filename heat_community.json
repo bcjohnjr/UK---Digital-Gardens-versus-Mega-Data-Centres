@@ -1,0 +1,681 @@
+{
+  "heat": {
+    "nodes": [
+      {
+        "node": "Falstone",
+        "it_mw": 0.9589,
+        "recoverable_gwh": 5.462076590999999,
+        "homes_demand_gwh": 0.9648403383586001,
+        "homes_gwh": 0.9648403383586001,
+        "homes_coverage": 1.0,
+        "greenhouse_gwh": 0.2897538461538461,
+        "ras_gwh": 0.011868,
+        "seaweed_gwh": 0.1986541717995383,
+        "digester_gwh": 0.0,
+        "drying_gwh": 3.996960234688002,
+        "river_gwh": 0.0,
+        "dry_cooler_gwh": 1.2635504621771877e-14,
+        "peak_rejected_mw": 2.2726265314076954e-13,
+        "connected_households": 91.10169491525424,
+        "households": 91.10169491525424,
+        "heat_per_household_mwh": 10.945434961734838,
+        "home_hp_el_gwh": 0.032307338240124564,
+        "used_share": 0.9999999999999977
+      },
+      {
+        "node": "Bellingham",
+        "it_mw": 5.5973,
+        "recoverable_gwh": 31.883284286999995,
+        "homes_demand_gwh": 5.541686574723848,
+        "homes_gwh": 5.541686574723848,
+        "homes_coverage": 1.0,
+        "greenhouse_gwh": 1.6913538461538464,
+        "ras_gwh": 0.06927599999999998,
+        "seaweed_gwh": 1.159585979574049,
+        "digester_gwh": 2.5627496296296295,
+        "drying_gwh": 11.08,
+        "river_gwh": 0.0,
+        "dry_cooler_gwh": 9.77863225691862,
+        "peak_rejected_mw": 3.11297706709415,
+        "connected_households": 531.7796610169491,
+        "households": 531.7796610169491,
+        "heat_per_household_mwh": 10.77039846467108,
+        "home_hp_el_gwh": 0.18579226983640934,
+        "used_share": 0.6932990914958616
+      },
+      {
+        "node": "Wark",
+        "it_mw": 3.20674,
+        "recoverable_gwh": 18.2662003206,
+        "homes_demand_gwh": 3.1132651710053367,
+        "homes_gwh": 3.1132651710053367,
+        "homes_coverage": 1.0,
+        "greenhouse_gwh": 0.9689907692307693,
+        "ras_gwh": 0.039688799999999996,
+        "seaweed_gwh": 0.6643365094133397,
+        "digester_gwh": 0.0,
+        "drying_gwh": 11.08,
+        "river_gwh": 0.0,
+        "dry_cooler_gwh": 2.399919070950554,
+        "peak_rejected_mw": 1.9266419811781956,
+        "connected_households": 304.66101694915255,
+        "households": 304.66101694915255,
+        "heat_per_household_mwh": 10.561907719542331,
+        "home_hp_el_gwh": 0.10453637575353392,
+        "used_share": 0.8686142148433571
+      },
+      {
+        "node": "Barrasford",
+        "it_mw": 3.51448,
+        "recoverable_gwh": 20.019145831199996,
+        "homes_demand_gwh": 3.3792213985208353,
+        "homes_gwh": 3.3792213985208353,
+        "homes_coverage": 1.0,
+        "greenhouse_gwh": 1.0619815384615385,
+        "ras_gwh": 0.04349759999999999,
+        "seaweed_gwh": 0.7280906389676101,
+        "digester_gwh": 0.0,
+        "drying_gwh": 2.08,
+        "river_gwh": 0.0,
+        "dry_cooler_gwh": 12.726354655250011,
+        "peak_rejected_mw": 2.1388158390135743,
+        "connected_households": 333.8983050847458,
+        "households": 333.8983050847458,
+        "heat_per_household_mwh": 10.460594975041307,
+        "home_hp_el_gwh": 0.11355353382346536,
+        "used_share": 0.36429082626413123
+      },
+      {
+        "node": "Chollerford",
+        "it_mw": 3.17106,
+        "recoverable_gwh": 18.062960261400004,
+        "homes_demand_gwh": 3.0342585372567084,
+        "homes_gwh": 3.0342585372567084,
+        "homes_coverage": 1.0,
+        "greenhouse_gwh": 0.9582092307692308,
+        "ras_gwh": 0.03924719999999999,
+        "seaweed_gwh": 0.6569447262766127,
+        "digester_gwh": 0.0,
+        "drying_gwh": 2.08,
+        "river_gwh": 0.0,
+        "dry_cooler_gwh": 11.294300567097455,
+        "peak_rejected_mw": 1.929714027243878,
+        "connected_households": 301.271186440678,
+        "households": 301.271186440678,
+        "heat_per_household_mwh": 10.410088179110167,
+        "home_hp_el_gwh": 0.10200107941588846,
+        "used_share": 0.3747259361892619
+      },
+      {
+        "node": "Haydon Bridge",
+        "it_mw": 10.58804,
+        "recoverable_gwh": 60.3114875676,
+        "homes_demand_gwh": 10.08224954079009,
+        "homes_gwh": 10.08224954079009,
+        "homes_coverage": 1.0,
+        "greenhouse_gwh": 3.1994215384615385,
+        "ras_gwh": 0.13104479999999996,
+        "seaweed_gwh": 2.1935116458237394,
+        "digester_gwh": 2.5627496296296295,
+        "drying_gwh": 6.912323232323233,
+        "river_gwh": 35.03088656355614,
+        "dry_cooler_gwh": 0.1993006170156272,
+        "peak_rejected_mw": 6.142949487942043,
+        "connected_households": 1005.9322033898305,
+        "households": 1005.9322033898305,
+        "heat_per_household_mwh": 10.359854264622863,
+        "home_hp_el_gwh": 0.3390614864195187,
+        "used_share": 0.41586273856893197
+      },
+      {
+        "node": "Hexham",
+        "it_mw": 50.60316,
+        "recoverable_gwh": 288.2452139604,
+        "homes_demand_gwh": 47.790138824225856,
+        "homes_gwh": 47.790138824225856,
+        "homes_coverage": 1.0,
+        "greenhouse_gwh": 15.290916923076926,
+        "ras_gwh": 0.6262991999999998,
+        "seaweed_gwh": 10.483396433663078,
+        "digester_gwh": 0.0,
+        "drying_gwh": 141.23590966532322,
+        "river_gwh": 48.94429683264891,
+        "dry_cooler_gwh": 23.874256081462047,
+        "peak_rejected_mw": 29.874367219940574,
+        "connected_households": 4807.627118644068,
+        "households": 4807.627118644068,
+        "heat_per_household_mwh": 10.275,
+        "home_hp_el_gwh": 1.6082298198419382,
+        "used_share": 0.7473728985345272
+      },
+      {
+        "node": "Corbridge",
+        "it_mw": 15.86868,
+        "recoverable_gwh": 90.3910163292,
+        "homes_demand_gwh": 14.841643808454762,
+        "homes_gwh": 14.841643808454762,
+        "homes_coverage": 1.0,
+        "greenhouse_gwh": 4.79508923076923,
+        "ras_gwh": 0.19640159999999998,
+        "seaweed_gwh": 3.287495550059336,
+        "digester_gwh": 2.5627496296296295,
+        "drying_gwh": 6.735909665323232,
+        "river_gwh": 47.10427517138909,
+        "dry_cooler_gwh": 10.86745167357472,
+        "peak_rejected_mw": 9.349882710043548,
+        "connected_households": 1507.6271186440679,
+        "households": 1507.6271186440679,
+        "heat_per_household_mwh": 10.175916917234183,
+        "home_hp_el_gwh": 0.4998444930364352,
+        "used_share": 0.3586561010240951
+      }
+    ],
+    "thermal": {
+      "recoverable_gwh": 532.6413851484,
+      "homes_gwh": 88.74730419333603,
+      "homes_demand_gwh": 88.74730419333603,
+      "greenhouse_gwh": 28.255716923076925,
+      "ras_gwh": 1.1573231999999998,
+      "seaweed_gwh": 19.372015655577304,
+      "digester_gwh": 7.6882488888888885,
+      "drying_gwh": 185.20110279765765,
+      "river_gwh": 131.07945856759414,
+      "dry_cooler_gwh": 71.14021492226905,
+      "home_hp_el_gwh": 2.985326396367314,
+      "it_heat_gwh": 737.21991024,
+      "used_gwh": 330.42171165853676,
+      "used_share_of_recoverable": 0.6203455474389724,
+      "used_share_of_it_heat": 0.4481996580246576,
+      "erf": 0.3897388330649197,
+      "useful_energy_efficiency": 1.2593040504562243,
+      "used_share_without_drying": 0.27264236859931373
+    },
+    "contracts_served_gwh": {
+      "Wood-chip pre-drying for panel board (Hexham)": 130.0,
+      "Woodfuel logs and chips (Kielder and Wark forests)": 21.996960234688,
+      "Grain drying for local farmers (bartered for manure and crop residues)": 7.8,
+      "Hay, haylage, straw and farm woodchip drying (bartered)": 10.4,
+      "Municipal biosolids": 6.696969696969698,
+      "Brewers' spent grain and food by-products": 3.5,
+      "Commercial laundry (hospital, hotels, care homes)": 4.5,
+      "Seafood by-products to feed meal": 0.307172866
+    },
+    "monthly_gwh": [
+      [
+        18.70368750911839,
+        17.77456383059067,
+        8.759784111250948
+      ],
+      [
+        16.08379474874676,
+        16.47231998755712,
+        8.30404631617612
+      ],
+      [
+        16.21402666339674,
+        18.96354197504932,
+        10.060466812513944
+      ],
+      [
+        13.448026528725372,
+        19.170170443399194,
+        11.16054701267544
+      ],
+      [
+        10.35557034846791,
+        23.292148230654846,
+        11.590316871837246
+      ],
+      [
+        7.202727488939923,
+        23.031126395818553,
+        13.544890100041528
+      ],
+      [
+        5.958234944876998,
+        23.911686245454455,
+        15.368114260628545
+      ],
+      [
+        6.188194630621432,
+        25.941136562166143,
+        13.108704258172432
+      ],
+      [
+        7.837520441424705,
+        12.341789501774223,
+        23.599434041601075
+      ],
+      [
+        11.074421173847822,
+        2.548562155698577,
+        31.615052121413598
+      ],
+      [
+        14.81394105435771,
+        1.279682347908351,
+        27.685120582533948
+      ],
+      [
+        17.340463328355398,
+        0.47437512158625894,
+        27.423197001018345
+      ]
+    ],
+    "rivers": {
+      "q95_bywell_mw_per_k": 25.61832,
+      "q95_haydon_mw_per_k": 9.04176,
+      "peak_total_rejected_mw": 53.672339458498115,
+      "dT_at_q95_if_all_to_river": 2.0950764709980247,
+      "dT_at_mean_flow": 0.2824200000552403,
+      "dry_cooler_peak_total_mw": 34.27401404291313,
+      "river_share_of_rejected": 0.6482032944938211,
+      "dry_cooler_peak_by_node_mw": {
+        "Falstone": 2.2726265314076954e-13,
+        "Bellingham": 3.11297706709415,
+        "Wark": 1.9266419811781956,
+        "Barrasford": 2.1388158390135743,
+        "Chollerford": 1.929714027243878,
+        "Haydon Bridge": 0.4026305862071906,
+        "Hexham": 20.918012251478643,
+        "Corbridge": 5.76751575074961
+      },
+      "river_peak_by_node_mw": {
+        "Falstone": 0.0,
+        "Bellingham": 0.0,
+        "Wark": 0.0,
+        "Barrasford": 0.0,
+        "Chollerford": 0.0,
+        "Haydon Bridge": 6.142949487942043,
+        "Hexham": 18.391995307898128,
+        "Corbridge": 8.660981529202585
+      },
+      "peak_dT_haydon_k": 0.6793975385259112,
+      "peak_dT_bywell_k": 1.0000000000000002
+    },
+    "facts": {
+      "ua_kw_per_k": 0.1355932640186345,
+      "population": 20966,
+      "greenhouse_ha": 11.773215384615385,
+      "veg_t": 3061.036,
+      "seafood_t": 964.436,
+      "dairy": 2400.0,
+      "beef": 12800.0,
+      "asparagopsis_t_dw": 282.8314285714286,
+      "asparagopsis_ha": 6.457338551859101,
+      "biogas_ch4_m3": 3865600.0,
+      "digester_heat_mwh": 7688.248888888888,
+      "hw_lift_share": 0.19230769230769232,
+      "washing_mwh_hh": 0.5
+    }
+  },
+  "feed": {
+    "finfish_t": 867.9924000000001,
+    "prawn_t": 96.4436,
+    "feed_fish_t": 1041.59088,
+    "feed_prawn_t": 144.6654,
+    "fish_meal_t": 85.93124760000002,
+    "prawn_meal_t": 12.05545,
+    "greenhouse_waste_t": 612.2072000000001,
+    "greens_direct_t": 216.99810000000002,
+    "bsf_meal_t": 17.7844095,
+    "local_plant_t": 460.035972,
+    "local_share_fish": 0.5007316827697263,
+    "local_share_prawn": 0.6,
+    "local_share_total": 0.5128375751148817,
+    "imported_feed_t": 577.8994859,
+    "credit_t": 875.9945980500001,
+    "n_feed_t": 83.03793960000002,
+    "n_dissolved_t": 40.688590404,
+    "seaweed_capacity_t_dw": 1356.2863468
+  },
+  "ledger_full": {
+    "rows": {
+      "Home heating and hot water through district loops and home heat pumps": 19538.576498951115,
+      "Hot-fill washing and cleaning water": 787.6757800180544,
+      "Drying contracts (fossil-fired drying displaced)": 15829.576939851395,
+      "Free red seaweed (Asparagopsis) for dairy and beef cattle": 13875.888657534246,
+      "Manure and crop residues to digesters (storage methane avoided)": 4712.96,
+      "Methane-leak detection on digesters and upgraders": 1552.115712,
+      "Biomethane displacing natural gas": 7030.903608888889,
+      "Farm red diesel replaced by subsidised HVO (all farms)": 20883.649920000003,
+      "Household vehicles replaced by battery-electric and plug-in hybrid vehicles": 16880.97850052678,
+      "Renewable fuel for residents' remaining vehicles (HVO)": 10063.68,
+      "Circular aquafeed replacing imported feed": 875.9945980500001
+    },
+    "total_t": 112032.00021582049,
+    "enteric_t_ch4": 1784.8,
+    "asp_ch4_t": 495.5674520547945,
+    "asp_enteric_cut_share": 0.2776599350374241,
+    "leak_ch4_t": 55.432704,
+    "biomethane_gwh": 38.44124444444444,
+    "farm_hvo_ml": 8.7015208,
+    "hvo_ml": 4.1932,
+    "baselines": {
+      "uk_per_capita_t": 5.382395382395383,
+      "residents_territorial_t": 112847.3015873016,
+      "cattle_t": 83710.46656,
+      "homes_t": 20505.0602912171,
+      "vehicles_t": 20581.298774915256,
+      "addressed_sectors_t": 138215.06562613236,
+      "residents_plus_cattle_t": 196557.7681473016
+    },
+    "percent": {
+      "of_addressed_sectors": 0.8105628695996405,
+      "of_residents_plus_cattle": 0.5699698428192521,
+      "of_residents_territorial": 0.9927751806200668
+    }
+  },
+  "ledger_no_asparagopsis": {
+    "rows": {
+      "Home heating and hot water through district loops and home heat pumps": 19538.576498951115,
+      "Hot-fill washing and cleaning water": 787.6757800180544,
+      "Drying contracts (fossil-fired drying displaced)": 15829.576939851395,
+      "Free red seaweed (Asparagopsis) for dairy and beef cattle": 0.0,
+      "Manure and crop residues to digesters (storage methane avoided)": 4712.96,
+      "Methane-leak detection on digesters and upgraders": 1552.115712,
+      "Biomethane displacing natural gas": 7030.903608888889,
+      "Farm red diesel replaced by subsidised HVO (all farms)": 20883.649920000003,
+      "Household vehicles replaced by battery-electric and plug-in hybrid vehicles": 16880.97850052678,
+      "Renewable fuel for residents' remaining vehicles (HVO)": 10063.68,
+      "Circular aquafeed replacing imported feed": 875.9945980500001
+    },
+    "total_t": 98156.11155828623,
+    "enteric_t_ch4": 1784.8,
+    "asp_ch4_t": 0.0,
+    "asp_enteric_cut_share": 0.0,
+    "leak_ch4_t": 55.432704,
+    "biomethane_gwh": 38.44124444444444,
+    "farm_hvo_ml": 8.7015208,
+    "hvo_ml": 4.1932,
+    "baselines": {
+      "uk_per_capita_t": 5.382395382395383,
+      "residents_territorial_t": 112847.3015873016,
+      "cattle_t": 83710.46656,
+      "homes_t": 20505.0602912171,
+      "vehicles_t": 20581.298774915256,
+      "addressed_sectors_t": 138215.06562613236,
+      "residents_plus_cattle_t": 196557.7681473016
+    },
+    "percent": {
+      "of_addressed_sectors": 0.7101694096343707,
+      "of_residents_plus_cattle": 0.4993753871112712,
+      "of_residents_territorial": 0.8698135460718138
+    }
+  },
+  "ledger_limited": {
+    "rows": {
+      "Home heating and hot water through district loops and home heat pumps": 9769.288249475558,
+      "Hot-fill washing and cleaning water": 393.8378900090272,
+      "Drying contracts (fossil-fired drying displaced)": 7914.788469925697,
+      "Free red seaweed (Asparagopsis) for dairy and beef cattle": 0.0,
+      "Manure and crop residues to digesters (storage methane avoided)": 2356.48,
+      "Methane-leak detection on digesters and upgraders": 776.057856,
+      "Biomethane displacing natural gas": 3515.4518044444444,
+      "Farm red diesel replaced by subsidised HVO (all farms)": 10441.824960000002,
+      "Household vehicles replaced by battery-electric and plug-in hybrid vehicles": 16880.97850052678,
+      "Renewable fuel for residents' remaining vehicles (HVO)": 10063.68,
+      "Circular aquafeed replacing imported feed": 875.9945980500001
+    },
+    "total_t": 62988.3823284315,
+    "enteric_t_ch4": 1784.8,
+    "asp_ch4_t": 0.0,
+    "asp_enteric_cut_share": 0.0,
+    "leak_ch4_t": 55.432704,
+    "biomethane_gwh": 38.44124444444444,
+    "farm_hvo_ml": 8.7015208,
+    "hvo_ml": 4.1932,
+    "baselines": {
+      "uk_per_capita_t": 5.382395382395383,
+      "residents_territorial_t": 112847.3015873016,
+      "cattle_t": 83710.46656,
+      "homes_t": 20505.0602912171,
+      "vehicles_t": 20581.298774915256,
+      "addressed_sectors_t": 138215.06562613236,
+      "residents_plus_cattle_t": 196557.7681473016
+    },
+    "percent": {
+      "of_addressed_sectors": 0.45572732641760777,
+      "of_residents_plus_cattle": 0.3204573542024939,
+      "of_residents_territorial": 0.5581735800718465
+    }
+  },
+  "ledger_weighted": {
+    "rows": {
+      "Home heating and hot water through district loops and home heat pumps": 14653.932374213337,
+      "Hot-fill washing and cleaning water": 590.7568350135408,
+      "Drying contracts (fossil-fired drying displaced)": 7914.788469925697,
+      "Free red seaweed (Asparagopsis) for dairy and beef cattle": 3468.9721643835614,
+      "Manure and crop residues to digesters (storage methane avoided)": 2356.48,
+      "Methane-leak detection on digesters and upgraders": 1164.086784,
+      "Biomethane displacing natural gas": 3515.4518044444444,
+      "Farm red diesel replaced by subsidised HVO (all farms)": 10441.824960000002,
+      "Household vehicles replaced by battery-electric and plug-in hybrid vehicles": 8440.48925026339,
+      "Renewable fuel for residents' remaining vehicles (HVO)": 5031.84,
+      "Circular aquafeed replacing imported feed": 656.9959485375001
+    },
+    "total_t": 58235.618590781465,
+    "tier_t": {
+      "A": 22754.36258901917,
+      "B": 75401.74896926706,
+      "C": 13875.888657534246
+    },
+    "tier_weighted_t": {
+      "A": 17065.77194176438,
+      "B": 37700.87448463353,
+      "C": 3468.9721643835614
+    },
+    "percent": {
+      "of_addressed_sectors": 0.4213405993548278,
+      "of_residents_plus_cattle": 0.2962773699543604
+    }
+  },
+  "ledger_north_east_seaweed": {
+    "rows": {
+      "Home heating and hot water through district loops and home heat pumps": 19538.576498951115,
+      "Hot-fill washing and cleaning water": 787.6757800180544,
+      "Drying contracts (fossil-fired drying displaced)": 14196.974619579516,
+      "Free red seaweed (Asparagopsis) for dairy and beef cattle": 69379.44328767122,
+      "Manure and crop residues to digesters (storage methane avoided)": 23564.8,
+      "Methane-leak detection on digesters and upgraders": 6154.498560000001,
+      "Biomethane displacing natural gas": 27879.162488888887,
+      "Farm red diesel replaced by subsidised HVO (all farms)": 104418.24960000001,
+      "Household vehicles replaced by battery-electric and plug-in hybrid vehicles": 16880.97850052678,
+      "Renewable fuel for residents' remaining vehicles (HVO)": 10063.68,
+      "Circular aquafeed replacing imported feed": 875.9945980500001
+    },
+    "total_t": 293740.0339336856,
+    "enteric_t_ch4": 8924.0,
+    "asp_ch4_t": 2477.8372602739723,
+    "asp_enteric_cut_share": 0.2776599350374241,
+    "leak_ch4_t": 219.80352000000002,
+    "biomethane_gwh": 152.42844444444444,
+    "farm_hvo_ml": 43.507604,
+    "hvo_ml": 4.1932,
+    "baselines": {
+      "uk_per_capita_t": 5.382395382395383,
+      "residents_territorial_t": 112847.3015873016,
+      "cattle_t": 418552.3328,
+      "homes_t": 20505.0602912171,
+      "vehicles_t": 20581.298774915256,
+      "addressed_sectors_t": 473056.9318661323,
+      "residents_plus_cattle_t": 531399.6343873015
+    },
+    "percent": {
+      "of_addressed_sectors": 0.6209401324591719,
+      "of_residents_plus_cattle": 0.5527667219273964,
+      "of_residents_territorial": 2.6029867777249485
+    }
+  },
+  "heat_north_east": {
+    "facts": {
+      "ua_kw_per_k": 0.1355932640186345,
+      "population": 20966,
+      "greenhouse_ha": 11.773215384615385,
+      "veg_t": 3061.036,
+      "seafood_t": 964.436,
+      "dairy": 12000.0,
+      "beef": 64000.0,
+      "asparagopsis_t_dw": 1414.1571428571428,
+      "asparagopsis_ha": 32.2866927592955,
+      "biogas_ch4_m3": 15328000.0,
+      "digester_heat_mwh": 30485.68888888889,
+      "hw_lift_share": 0.19230769230769232,
+      "washing_mwh_hh": 0.5
+    },
+    "thermal": {
+      "recoverable_gwh": 532.6413851484,
+      "homes_gwh": 88.74730419333603,
+      "homes_demand_gwh": 88.74730419333603,
+      "greenhouse_gwh": 28.255716923076925,
+      "ras_gwh": 1.1573231999999998,
+      "seaweed_gwh": 96.84965305952315,
+      "digester_gwh": 30.23396882162337,
+      "drying_gwh": 179.34977066779717,
+      "river_gwh": 85.20793094651009,
+      "dry_cooler_gwh": 22.83971733653327,
+      "home_hp_el_gwh": 2.985326396367314,
+      "it_heat_gwh": 737.21991024,
+      "used_gwh": 424.5937368653566,
+      "used_share_of_recoverable": 0.7971474780298191,
+      "used_share_of_it_heat": 0.5759390528765443,
+      "erf": 0.5008165677187343,
+      "useful_energy_efficiency": 1.3703817851100388,
+      "used_share_without_drying": 0.46042979955309266
+    }
+  },
+  "programme": {
+    "capex": {
+      "district_heat": 133258474.57627118,
+      "home_heat_pumps": 35535593.220338985,
+      "greenhouses": 27078395.384615388,
+      "aquaculture": 28933080.0,
+      "seaweed_tanks": 16143346.379647752,
+      "feed_mill_and_insects": 3000000.0,
+      "digesters": 5535539.2,
+      "leak_detection": 120000.0,
+      "drying_hubs": 14270632.921052389
+    },
+    "capex_total": 263875061.68192568,
+    "opex": {
+      "district_heat": 1998877.1186440676,
+      "home_heat_pumps": 888389.8305084745,
+      "food_nonlabour": 7371645.6,
+      "ev_om": 5263532.06779661,
+      "renewable_fuel_subsidy": 2096600.0,
+      "farm_hvo_subsidy": 4089714.776,
+      "seaweed": 1291467.7103718203,
+      "digesters": 276776.96,
+      "leak_detection": 24000.0,
+      "drying": 1297344.5336806625
+    },
+    "opex_total": 24598348.597001635,
+    "revenue": {
+      "drying": 5123412.779776685,
+      "biomethane": 2306474.6666666665
+    },
+    "revenue_total": 7429887.446443351,
+    "connected_households": 8883.898305084746,
+    "vehicles": {
+      "households": 8883.898305084746,
+      "existing": 11408.702203389832,
+      "new_for_zero_car": 1750.127966101695,
+      "total": 13158.830169491526,
+      "bev": 10527.06413559322,
+      "phev": 2631.7660338983055,
+      "charging_gwh": 22.146311175254237,
+      "fleet_value_gbp": 400028437.15254235,
+      "annual_finance_payment_gbp": 72937732.7093177,
+      "finance_years": 7,
+      "finance_rate": 0.065,
+      "life": 12,
+      "payment_years": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        25
+      ]
+    }
+  },
+  "jobs": {
+    "by_sector": {
+      "IT/data-centre operations": 159,
+      "Greenhouse horticulture": 177,
+      "Fish and prawn farming": 87,
+      "Seafood processing and packing": 39,
+      "Red-seaweed cultivation and distribution": 33,
+      "Feed mill and insect (black soldier fly) unit": 12,
+      "District heat and home heat-pump service": 23,
+      "Drying hubs": 19,
+      "Digesters and methane-leak detection": 10,
+      "Vehicle fleet service and charging": 62,
+      "Renewables, battery and standby generation": 93,
+      "Logistics and food distribution": 30,
+      "Programme administration and audit": 25
+    },
+    "total": 769,
+    "cost_gbp": 38757600.0
+  },
+  "sensitivities": {
+    "connected 80%": {
+      "used_share_of_recoverable": 0.5873843595543623,
+      "used_share_of_it_heat": 0.42438519977802674,
+      "erf": 0.369030608502632,
+      "useful_energy_efficiency": 1.2385958258939362,
+      "homes_gwh": 70.99784335466883,
+      "drying_gwh": 185.3940708653294,
+      "seaweed_gwh": 19.372015655577304,
+      "river_gwh": 136.0564467354534,
+      "dry_cooler_gwh": 83.71971952540527
+    },
+    "drying x2": {
+      "used_share_of_recoverable": 0.8133539795155983,
+      "used_share_of_it_heat": 0.5876482502000198,
+      "erf": 0.5109984784347998,
+      "useful_energy_efficiency": 1.3805636958261045,
+      "homes_gwh": 88.74730419333603,
+      "drying_gwh": 288.0053814042725,
+      "seaweed_gwh": 19.372015655577304,
+      "river_gwh": 79.5536811278891,
+      "dry_cooler_gwh": 19.861713755359226
+    },
+    "continuous drying contracts at every node": {
+      "used_share_of_recoverable": 1.0000000000000002,
+      "used_share_of_it_heat": 0.7225000000000001,
+      "erf": 0.6282608695652175,
+      "useful_energy_efficiency": 1.497826086956522,
+      "homes_gwh": 88.74730419333603,
+      "drying_gwh": 387.42077628752094,
+      "seaweed_gwh": 19.372015655577304,
+      "river_gwh": 5.667061491083924e-12,
+      "dry_cooler_gwh": -5.73658164981089e-12,
+      "continuous_contracts_gwh": 202.21967348986323,
+      "dry_cooler_peak_mw": 2.5581758933412857e-12,
+      "fossil_drying_displaced_t": 62377.186033866936
+    },
+    "seaweed for the whole North East herd": {
+      "used_share_of_recoverable": 0.7971474780298191,
+      "used_share_of_it_heat": 0.5759390528765443,
+      "erf": 0.5008165677187343,
+      "useful_energy_efficiency": 1.3703817851100388,
+      "homes_gwh": 88.74730419333603,
+      "drying_gwh": 179.34977066779717,
+      "seaweed_gwh": 96.84965305952315,
+      "river_gwh": 85.20793094651009,
+      "dry_cooler_gwh": 22.83971733653327
+    }
+  },
+  "grid_mean_g_kwh": 177.32660887557077,
+  "dg_supply_g_kwh": 59.895632338733094
+}

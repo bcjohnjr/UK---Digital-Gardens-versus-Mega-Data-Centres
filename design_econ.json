@@ -1,0 +1,447 @@
+{
+  "table": {
+    "2018-2025 observed": {
+      "Grid campus": {
+        "op_g": 177.32660887557077,
+        "lca_g": 224.79193065068492,
+        "op_mt_gw": 1.6776515812500001,
+        "lca_mt_gw": 2.1267114975
+      },
+      "Digital Gardens": {
+        "op_g": 41.7158465636326,
+        "lca_g": 70.57838226650037,
+        "op_t": 37027.79180725,
+        "lca_t": 62646.7364307256,
+        "op_mt_gw": 0.37822089445383117,
+        "lca_mt_gw": 0.6399059606574522
+      }
+    },
+    "2025": {
+      "Grid campus": {
+        "op_g": 129.16809360730593,
+        "lca_g": 167.00171232876713,
+        "op_mt_gw": 1.2220335,
+        "lca_mt_gw": 1.5799698
+      },
+      "Digital Gardens": {
+        "op_g": 30.38662053036999,
+        "lca_g": 56.98331102658524,
+        "op_t": 26971.75177802435,
+        "lca_t": 50579.488395654815,
+        "op_mt_gw": 0.27550333370065244,
+        "lca_mt_gw": 0.5166448877536376
+      }
+    },
+    "2030 (Clean Power 2030)": {
+      "Grid campus": {
+        "op_g": 50.0,
+        "lca_g": 72.0,
+        "op_mt_gw": 0.47304,
+        "lca_mt_gw": 0.6811776
+      },
+      "Digital Gardens": {
+        "op_g": 11.762432843032713,
+        "lca_g": 34.63428580178052,
+        "op_t": 10440.562767777346,
+        "lca_t": 30742.061583358412,
+        "op_mt_gw": 0.10664527361464038,
+        "lca_mt_gw": 0.3140152156504232
+      }
+    },
+    "2035 (CCC)": {
+      "Grid campus": {
+        "op_g": 10.0,
+        "lca_g": 24.0,
+        "op_mt_gw": 0.094608,
+        "lca_mt_gw": 0.22705920000000004
+      },
+      "Digital Gardens": {
+        "op_g": 2.3524865686065426,
+        "lca_g": 23.342350272469112,
+        "op_t": 2088.1125535554693,
+        "lca_t": 20719.12132629216,
+        "op_mt_gw": 0.021329054722928075,
+        "lca_mt_gw": 0.2116357529803684
+      }
+    }
+  },
+  "absolute": {
+    "twin": {
+      "twh": 0.884663892288,
+      "op_t": 156874.44801409423,
+      "lca_t": 198865.3043243691
+    },
+    "cambois": {
+      "twh": 6.811776,
+      "op_mt": 1.2079091385,
+      "lca_mt": 1.5312322781999999,
+      "cum_op_mt": 3.984900624,
+      "cum_lca_mt": 6.825413548799999
+    },
+    "stargate": {
+      "gpus_initial": {
+        "gpus": 8000,
+        "it_mw": 16.5,
+        "op_kt": 27.681251090624997
+      },
+      "gpus_potential": {
+        "gpus": 31000,
+        "it_mw": 63.9375,
+        "op_kt": 107.26484797617184
+      }
+    }
+  },
+  "net": {
+    "dg_lca_kt_yr": 62.646736430725596,
+    "reductions_full_kt": 112.03200021582049,
+    "reductions_limited_kt": 62.9883823284315,
+    "cum_reductions_full_kt": 2800.800005395512,
+    "cum_reductions_limited_kt": 1574.7095582107877,
+    "net_full_kt_yr": -49.38526378509489,
+    "reductions_weighted_kt": 58.23561859078146,
+    "cum_reductions_weighted_kt": 1455.8904647695367
+  },
+  "dc_share": 0.9551424438760636,
+  "cum": {
+    "dg_op_kt": 122.1549419365144,
+    "dg_lca_kt": 601.9205868744572,
+    "twin_op_kt": 517.529891823912,
+    "twin_lca_kt": 886.4350378750942
+  },
+  "economics": {
+    "premium": {
+      "full|GB300 NVL72|reservation": {
+        "dg_elec_gbp_mwh": 196.5313406761313,
+        "twin_npv_musd": 1169.5594356784766,
+        "dg_npv_musd": -392.08340009681575,
+        "premium": 0.6061095499480501,
+        "premium_electricity_only": 0.0783549520311804,
+        "share_of_price": 0.09386859996098033,
+        "elec_usd_gpu_h": 0.6624978162308438
+      },
+      "full|GB300 NVL72|on-demand": {
+        "dg_elec_gbp_mwh": 196.5313406761313,
+        "twin_npv_musd": 9696.515921075697,
+        "dg_npv_musd": 8205.315195912359,
+        "premium": 0.5996112476307514,
+        "premium_electricity_only": 0.07404190201231972,
+        "share_of_price": 0.06070168532402827,
+        "elec_usd_gpu_h": 0.6624978162308438
+      },
+      "full|Vera Rubin NVL72|reservation": {
+        "dg_elec_gbp_mwh": 196.5313406761313,
+        "twin_npv_musd": -2597.104413618627,
+        "dg_npv_musd": -4281.12972325717,
+        "premium": 0.9449451448063508,
+        "premium_electricity_only": 0.12393674989429883,
+        "share_of_price": 0.14634429995452233,
+        "elec_usd_gpu_h": 1.0796260708947085
+      },
+      "full|Vera Rubin NVL72|on-demand": {
+        "dg_elec_gbp_mwh": 196.5313406761313,
+        "twin_npv_musd": 2857.5609014519328,
+        "dg_npv_musd": 1366.3601762885944,
+        "premium": 0.9771442553982606,
+        "premium_electricity_only": 0.1206608773534093,
+        "share_of_price": 0.09892126497249042,
+        "elec_usd_gpu_h": 1.0796260708947085
+      },
+      "capped|GB300 NVL72|reservation": {
+        "dg_elec_gbp_mwh": 211.87904567264664,
+        "twin_npv_musd": 1169.5594356784766,
+        "dg_npv_musd": -530.0166430531162,
+        "premium": 0.6572803872747297,
+        "premium_electricity_only": 0.13019165837627272,
+        "share_of_price": 0.10179346248640694,
+        "elec_usd_gpu_h": 0.7142342009182227
+      },
+      "capped|GB300 NVL72|on-demand": {
+        "dg_elec_gbp_mwh": 211.87904567264664,
+        "twin_npv_musd": 9696.515921075697,
+        "dg_npv_musd": 8076.649606886152,
+        "premium": 0.6513476323181302,
+        "premium_electricity_only": 0.12345751891993467,
+        "share_of_price": 0.06593922173700446,
+        "elec_usd_gpu_h": 0.7142342009182227
+      },
+      "capped|Vera Rubin NVL72|reservation": {
+        "dg_elec_gbp_mwh": 211.87904567264664,
+        "twin_npv_musd": -2597.104413618627,
+        "dg_npv_musd": -4437.675486245727,
+        "premium": 1.026764102766178,
+        "premium_electricity_only": 0.20549233958139704,
+        "share_of_price": 0.1590156578544491,
+        "elec_usd_gpu_h": 1.1639372163111776
+      },
+      "capped|Vera Rubin NVL72|on-demand": {
+        "dg_elec_gbp_mwh": 211.87904567264664,
+        "twin_npv_musd": 2857.5609014519328,
+        "dg_npv_musd": 1237.6945872623885,
+        "premium": 1.0614554008147299,
+        "premium_electricity_only": 0.20119003083248632,
+        "share_of_price": 0.10745650949734052,
+        "elec_usd_gpu_h": 1.1639372163111776
+      },
+      "zero|GB300 NVL72|reservation": {
+        "dg_elec_gbp_mwh": 280.02236195771843,
+        "twin_npv_musd": 1169.5594356784766,
+        "dg_npv_musd": -1142.435802994678,
+        "premium": 0.8801169026704414,
+        "premium_electricity_only": 0.35602833691648095,
+        "share_of_price": 0.1363043058185599,
+        "elec_usd_gpu_h": 0.9439420840185724
+      },
+      "zero|GB300 NVL72|on-demand": {
+        "dg_elec_gbp_mwh": 280.02236195771843,
+        "twin_npv_musd": 9696.515921075697,
+        "dg_npv_musd": 7505.378532154882,
+        "premium": 0.8810555154184796,
+        "premium_electricity_only": 0.3428612677619998,
+        "share_of_price": 0.08919371486317872,
+        "elec_usd_gpu_h": 0.9439420840185724
+      },
+      "zero|Vera Rubin NVL72|reservation": {
+        "dg_elec_gbp_mwh": 280.02236195771843,
+        "twin_npv_musd": -2597.104413618627,
+        "dg_npv_musd": -5141.2517472822665,
+        "premium": 1.383516176123459,
+        "premium_electricity_only": 0.558736880797334,
+        "share_of_price": 0.2142660951097195,
+        "elec_usd_gpu_h": 1.538275988771007
+      },
+      "zero|Vera Rubin NVL72|on-demand": {
+        "dg_elec_gbp_mwh": 280.02236195771843,
+        "twin_npv_musd": 2857.5609014519328,
+        "dg_npv_musd": 666.4235125311191,
+        "premium": 1.4357941732745592,
+        "premium_electricity_only": 0.5587368807973333,
+        "share_of_price": 0.1453527205177727,
+        "elec_usd_gpu_h": 1.538275988771007
+      }
+    },
+    "sensitivity_musd": {
+      "Central|reservation|prices held each generation": 928.6579424330329,
+      "Central|reservation|prices compress 15% per generation": -2703.6745517484646,
+      "Central|on-demand|prices held each generation": 9448.788138636106,
+      "Central|on-demand|prices compress 15% per generation": 4321.745037898433,
+      "GPU capital +38%|reservation|prices held each generation": -2591.2662232721877,
+      "GPU capital +38%|reservation|prices compress 15% per generation": -6480.83831313684,
+      "GPU capital +38%|on-demand|prices held each generation": 6096.279223205703,
+      "GPU capital +38%|on-demand|prices compress 15% per generation": 862.0906942939907,
+      "Sold 70%|reservation|prices held each generation": -1563.5773402357174,
+      "Sold 70%|reservation|prices compress 15% per generation": -4724.666406753438,
+      "Sold 70%|on-demand|prices held each generation": 5558.474792037996,
+      "Sold 70%|on-demand|prices compress 15% per generation": 1273.1714828107806,
+      "Sold 60%|reservation|prices held each generation": -3308.9946823991127,
+      "Sold 60%|reservation|prices compress 15% per generation": -6144.921347054125,
+      "Sold 60%|on-demand|prices held each generation": 2964.932560972594,
+      "Sold 60%|on-demand|prices compress 15% per generation": -796.8720493923714,
+      "Prices -20%|reservation|prices held each generation": -2556.7139818413434,
+      "Prices -20%|reservation|prices compress 15% per generation": -5499.317243653069,
+      "Prices -20%|on-demand|prices held each generation": 4535.577847346026,
+      "Prices -20%|on-demand|prices compress 15% per generation": 307.6162658808956,
+      "All four adverse|reservation|prices held each generation": -10131.319936203721,
+      "All four adverse|reservation|prices compress 15% per generation": -12458.271067427797,
+      "All four adverse|on-demand|prices held each generation": -4108.344249588955,
+      "All four adverse|on-demand|prices compress 15% per generation": -7657.588891082004
+    },
+    "cambois_delivered": 166.30447374429224,
+    "dg_delivered": 196.5313406761313,
+    "community_capex": 263875061.68192568,
+    "community_net": -43225261.150558285,
+    "community_labour": 26056800.0,
+    "breakeven_start_gb300": 6.003694302747011,
+    "aigz": {
+      "full term (central)|reservation": {
+        "premium": 0.6061095499480501,
+        "cambois_mean_gbp_mwh": 166.30447374429224
+      },
+      "full term (central)|on-demand": {
+        "premium": 0.5996112476307514,
+        "cambois_mean_gbp_mwh": 166.30447374429224
+      },
+      "to 2030 only|reservation": {
+        "premium": 0.5735039691306661,
+        "cambois_mean_gbp_mwh": 178.06447374429226
+      },
+      "to 2030 only|on-demand": {
+        "premium": 0.5680887033268205,
+        "cambois_mean_gbp_mwh": 178.06447374429226
+      },
+      "none|reservation": {
+        "premium": 0.5574380754245953,
+        "cambois_mean_gbp_mwh": 180.30447374429227
+      },
+      "none|on-demand": {
+        "premium": 0.5525750485357296,
+        "cambois_mean_gbp_mwh": 180.30447374429227
+      }
+    },
+    "export_value": {
+      "1.0": {
+        "energy_gbp_mwh": 101.0913406761313,
+        "premium": 0.5996112476307514
+      },
+      "0.8": {
+        "energy_gbp_mwh": 117.78954493244873,
+        "premium": 0.6559001011882967
+      },
+      "0.6": {
+        "energy_gbp_mwh": 134.48774918876614,
+        "premium": 0.7121889547458431
+      }
+    },
+    "export_scenarios": {
+      "central: all surplus at hourly price": {
+        "energy_gbp_mwh": 101.0913406761313,
+        "premium": 0.5996112476307514
+      },
+      "merchant PPA: 90% of hourly price, 5% constraint curtailment": {
+        "energy_gbp_mwh": 113.19753876196144,
+        "premium": 0.6404206664599718
+      },
+      "export capped at 600 MW": {
+        "energy_gbp_mwh": 101.20135295967746,
+        "premium": 0.5999820938141504
+      },
+      "export capped at 400 MW, merchant PPA terms": {
+        "energy_gbp_mwh": 115.52606193653745,
+        "premium": 0.6482700075009085
+      },
+      "export capped at 200 MW, merchant PPA terms": {
+        "energy_gbp_mwh": 130.91324418873347,
+        "premium": 0.7001394681424297
+      }
+    },
+    "adverse_premium": {
+      "Sold 70%": {
+        "premium": 0.7280993721230548,
+        "dg_npv_musd": 4534.43825097138,
+        "twin_npv_musd": 6025.638976134718
+      },
+      "Sold 60%": {
+        "premium": 0.8494492674768962,
+        "dg_npv_musd": 2087.186954344065,
+        "twin_npv_musd": 3578.387679507403
+      },
+      "GPU capital +38%": {
+        "premium": 0.5996112476307514,
+        "dg_npv_musd": 4852.806280481956,
+        "twin_npv_musd": 6344.007005645294
+      },
+      "Prices -20%": {
+        "premium": 0.5996112476307515,
+        "dg_npv_musd": 3292.1049046222747,
+        "twin_npv_musd": 4783.305629785614
+      },
+      "All four adverse": {
+        "premium": 0.8237808821530296,
+        "dg_npv_musd": -5118.226218374167,
+        "twin_npv_musd": -3462.466522708642
+      }
+    }
+  },
+  "water": {
+    "dg_cooling_m3": 0.0,
+    "cambois_cooling_m3": 0.0,
+    "block_test_m3": 207.20930232558143
+  },
+  "jobs": {
+    "dg_data_centre_energy": 252,
+    "dg_data_centre_energy_per_mw": 2.6949462058793463,
+    "dg_it_ops": 159,
+    "dg_community": 517,
+    "dg": 769,
+    "dg_per_mw": 8.223863620322291,
+    "cambois": 400,
+    "cambois_per_mw": 0.5555555555555556
+  },
+  "block": {
+    "test_mwh": 1320.0,
+    "test_fuel_ml": 0.26565295169946335,
+    "nox_t": 0.066,
+    "standby_gbp": 22848588.919021197,
+    "outage": [
+      {
+        "year": 2010,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2011,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2012,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2013,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2014,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2015,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2016,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2017,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2018,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2019,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2020,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2021,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2022,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2023,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2024,
+        "hours": 369,
+        "trimix_hours": 125
+      },
+      {
+        "year": 2025,
+        "hours": 369,
+        "trimix_hours": 125
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "screen": "fixed model output, change solar PV LCA intensity only",
+  "cases": [
+    {
+      "solar_lca_gco2e_kwh": 35.0,
+      "annual_lca_generation_allocated_t": 15939.338513105722,
+      "annual_lca_total_with_scheduled_backup_t": 16136.729282336491,
+      "delta_from_35_t": 0.0,
+      "count_years": 8
+    },
+    {
+      "solar_lca_gco2e_kwh": 48.0,
+      "annual_lca_generation_allocated_t": 19974.133925677117,
+      "annual_lca_total_with_scheduled_backup_t": 20171.524694907886,
+      "delta_from_35_t": 4034.795412571395,
+      "count_years": 8
+    }
+  ],
+  "baseline_partial_lifecycle_kt_yr": 62.646736430725596,
+  "sensitivity_partial_lifecycle_kt_yr": 66.681531843297,
+  "estimated_25year_increment_kt": 100.86988531428489
+}

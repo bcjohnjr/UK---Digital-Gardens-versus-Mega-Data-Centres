@@ -1,0 +1,200 @@
+[
+  {
+    "distance_km": 10,
+    "link_gbps": 400,
+    "payload_GB_decimal": 100,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 2.857142857142857,
+    "propagation_one_way_ms": 0.05,
+    "propagation_rtt_ms": 0.1,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 10,
+    "link_gbps": 400,
+    "payload_GB_decimal": 1000,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 28.571428571428573,
+    "propagation_one_way_ms": 0.05,
+    "propagation_rtt_ms": 0.1,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 10,
+    "link_gbps": 400,
+    "payload_GB_decimal": 100000,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 2857.1428571428573,
+    "propagation_one_way_ms": 0.05,
+    "propagation_rtt_ms": 0.1,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 10,
+    "link_gbps": 800,
+    "payload_GB_decimal": 100,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 1.4285714285714286,
+    "propagation_one_way_ms": 0.05,
+    "propagation_rtt_ms": 0.1,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 10,
+    "link_gbps": 800,
+    "payload_GB_decimal": 1000,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 14.285714285714286,
+    "propagation_one_way_ms": 0.05,
+    "propagation_rtt_ms": 0.1,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 10,
+    "link_gbps": 800,
+    "payload_GB_decimal": 100000,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 1428.5714285714287,
+    "propagation_one_way_ms": 0.05,
+    "propagation_rtt_ms": 0.1,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 30,
+    "link_gbps": 400,
+    "payload_GB_decimal": 100,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 2.857142857142857,
+    "propagation_one_way_ms": 0.15,
+    "propagation_rtt_ms": 0.3,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 30,
+    "link_gbps": 400,
+    "payload_GB_decimal": 1000,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 28.571428571428573,
+    "propagation_one_way_ms": 0.15,
+    "propagation_rtt_ms": 0.3,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 30,
+    "link_gbps": 400,
+    "payload_GB_decimal": 100000,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 2857.1428571428573,
+    "propagation_one_way_ms": 0.15,
+    "propagation_rtt_ms": 0.3,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 30,
+    "link_gbps": 800,
+    "payload_GB_decimal": 100,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 1.4285714285714286,
+    "propagation_one_way_ms": 0.15,
+    "propagation_rtt_ms": 0.3,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 30,
+    "link_gbps": 800,
+    "payload_GB_decimal": 1000,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 14.285714285714286,
+    "propagation_one_way_ms": 0.15,
+    "propagation_rtt_ms": 0.3,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 30,
+    "link_gbps": 800,
+    "payload_GB_decimal": 100000,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 1428.5714285714287,
+    "propagation_one_way_ms": 0.15,
+    "propagation_rtt_ms": 0.3,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 60,
+    "link_gbps": 400,
+    "payload_GB_decimal": 100,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 2.857142857142857,
+    "propagation_one_way_ms": 0.3,
+    "propagation_rtt_ms": 0.6,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 60,
+    "link_gbps": 400,
+    "payload_GB_decimal": 1000,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 28.571428571428573,
+    "propagation_one_way_ms": 0.3,
+    "propagation_rtt_ms": 0.6,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 60,
+    "link_gbps": 400,
+    "payload_GB_decimal": 100000,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 2857.1428571428573,
+    "propagation_one_way_ms": 0.3,
+    "propagation_rtt_ms": 0.6,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 60,
+    "link_gbps": 800,
+    "payload_GB_decimal": 100,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 1.4285714285714286,
+    "propagation_one_way_ms": 0.3,
+    "propagation_rtt_ms": 0.6,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 60,
+    "link_gbps": 800,
+    "payload_GB_decimal": 1000,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 14.285714285714286,
+    "propagation_one_way_ms": 0.3,
+    "propagation_rtt_ms": 0.6,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  },
+  {
+    "distance_km": 60,
+    "link_gbps": 800,
+    "payload_GB_decimal": 100000,
+    "assumed_payload_efficiency": 0.7,
+    "min_transfer_seconds": 1428.5714285714287,
+    "propagation_one_way_ms": 0.3,
+    "propagation_rtt_ms": 0.6,
+    "site_to_site_actual_NCCL_allreduce": "unmeasured",
+    "interpretation": "Ideal transfer lower bound, not full synchronized-training performance"
+  }
+]

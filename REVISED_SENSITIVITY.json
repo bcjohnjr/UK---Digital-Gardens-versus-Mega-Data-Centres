@@ -1,0 +1,97 @@
+{
+  "basis": "model assumptions, no independently metered host-community outcomes",
+  "wind_model": {
+    "curve": "piecewise generic 4-5 MW onshore curve; 12% losses; not manufacturer-certified",
+    "raw_era5_100m_cf": 0.35024519282248856,
+    "calibrated_30pct_cf": 0.3,
+    "selected_portfolio": {
+      "wind_mw": 400.0,
+      "solar_mwp": 800.0,
+      "battery_mwh": 100.0,
+      "self_supply": 0.8050349487466029,
+      "cost_full": 101.0913406761313,
+      "import_gwh": 173.05474830742537,
+      "export_gwh": 1021.0416700693381
+    }
+  },
+  "non_commodity_tariff": {
+    "original_flat_tnuos_proxy_gbp_mwh": 25.7,
+    "base_all_other_charges_gbp_mwh": 69.74,
+    "note": "Original flat proxy is NOT a validated actual 2026/27 TNUoS tariff. Demand residual charges can be daily fixed site/band levies and other locational terms.",
+    "0_million_gbp_per_year": {
+      "new_fixed_equiv_gbp_mwh": 0.0,
+      "dg_delivered_gbp_mwh_if_proxy_replaced": 170.8313406761313,
+      "note": "Illustrative sum over project sites; not based on awarded utility tariffs"
+    },
+    "5_million_gbp_per_year": {
+      "new_fixed_equiv_gbp_mwh": 5.633045413670155,
+      "dg_delivered_gbp_mwh_if_proxy_replaced": 176.46438608980145,
+      "note": "Illustrative sum over project sites; not based on awarded utility tariffs"
+    },
+    "15_million_gbp_per_year": {
+      "new_fixed_equiv_gbp_mwh": 16.899136241010467,
+      "dg_delivered_gbp_mwh_if_proxy_replaced": 187.73047691714177,
+      "note": "Illustrative sum over project sites; not based on awarded utility tariffs"
+    },
+    "30_million_gbp_per_year": {
+      "new_fixed_equiv_gbp_mwh": 33.798272482020934,
+      "dg_delivered_gbp_mwh_if_proxy_replaced": 204.62961315815224,
+      "note": "Illustrative sum over project sites; not based on awarded utility tariffs"
+    }
+  },
+  "community_avoided_emissions_25y": {
+    "0%_annual_decline": {
+      "gross_conditional_avoided_kt": 2800.800005395512,
+      "gross_original_constant_baseline_kt": 2800.800005395512,
+      "lifecycle_dg_net_kt": -2198.879418521055,
+      "note": "Counterfactual decline applies to all categories as stylised sensitivity; not a sector-specific forecast"
+    },
+    "2%_annual_decline": {
+      "gross_conditional_avoided_kt": 2221.2319739495524,
+      "gross_original_constant_baseline_kt": 2800.800005395512,
+      "lifecycle_dg_net_kt": -1619.3113870750954,
+      "note": "Counterfactual decline applies to all categories as stylised sensitivity; not a sector-specific forecast"
+    },
+    "5%_annual_decline": {
+      "gross_conditional_avoided_kt": 1619.1098299993757,
+      "gross_original_constant_baseline_kt": 2800.800005395512,
+      "lifecycle_dg_net_kt": -1017.1892431249186,
+      "note": "Counterfactual decline applies to all categories as stylised sensitivity; not a sector-specific forecast"
+    },
+    "10%_annual_decline": {
+      "gross_conditional_avoided_kt": 1039.8924546461744,
+      "gross_original_constant_baseline_kt": 2800.800005395512,
+      "lifecycle_dg_net_kt": -437.97186777171726,
+      "note": "Counterfactual decline applies to all categories as stylised sensitivity; not a sector-specific forecast"
+    }
+  },
+  "vehicles_embodied": {
+    "8_t_co2e_per_new_vehicle": {
+      "vehicles": 13158.830169491526,
+      "gross_t_co2e": 105270.64135593221,
+      "annualised_gross_t_per_year_at_12y": 8772.553446327684,
+      "note": "Conservative gross manufacturing footprint; not an incremental EV-versus-ICE manufacturing difference"
+    },
+    "10_t_co2e_per_new_vehicle": {
+      "vehicles": 13158.830169491526,
+      "gross_t_co2e": 131588.30169491525,
+      "annualised_gross_t_per_year_at_12y": 10965.691807909605,
+      "note": "Conservative gross manufacturing footprint; not an incremental EV-versus-ICE manufacturing difference"
+    },
+    "12_t_co2e_per_new_vehicle": {
+      "vehicles": 13158.830169491526,
+      "gross_t_co2e": 157905.9620338983,
+      "annualised_gross_t_per_year_at_12y": 13158.830169491526,
+      "note": "Conservative gross manufacturing footprint; not an incremental EV-versus-ICE manufacturing difference"
+    }
+  },
+  "backup_startup": {
+    "battery_mwh": 100.0,
+    "battery_power_mw": 25.0,
+    "battery_initial_soc_mwh": 50.0,
+    "load_mw": 101.32640761649371,
+    "one_gt_remaining_mw": 55.0,
+    "instantaneous_gap_after_one_gt_mw": 46.32640761649371,
+    "note": "The power-limited battery alone cannot bridge the full outage load; black start and fast-response capacity not established."
+  }
+}

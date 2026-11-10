@@ -1,0 +1,144 @@
+{
+  "node_load_mw": {
+    "Falstone": 1.0390717179026112,
+    "Bellingham": 6.065279097524544,
+    "Wark": 3.474849140334779,
+    "Barrasford": 3.8083186684058496,
+    "Chollerford": 3.43618600664538,
+    "Haydon Bridge": 11.473284922329299,
+    "Hexham": 54.83398935499083,
+    "Corbridge": 17.195428708360424
+  },
+  "total_load_mw": 101.32640761649371,
+  "routes": {
+    "Hexham\u2013Corbridge": {
+      "km": 6.0,
+      "mw": 17.195428708360424,
+      "amps_per_circuit": 158.33788506543715,
+      "loading": 0.35186196681208254,
+      "drop_pu": 0.0077151298675049405,
+      "loss_mw": 0.11733174576393934
+    },
+    "Hexham\u2013Haydon Bridge": {
+      "km": 10.0,
+      "mw": 11.473284922329299,
+      "amps_per_circuit": 105.64759391381332,
+      "loading": 0.23477243091958516,
+      "drop_pu": 0.008579594484474764,
+      "loss_mw": 0.08705902997826846
+    },
+    "Hexham\u2013Chollerford": {
+      "km": 8.0,
+      "mw": 17.823704630813165,
+      "amps_per_circuit": 164.12313662769313,
+      "loading": 0.3647180813948736,
+      "drop_pu": 0.010662694004631148,
+      "loss_mw": 0.16808316081343752
+    },
+    "Chollerford\u2013Barrasford": {
+      "km": 4.0,
+      "mw": 14.387518624167784,
+      "amps_per_circuit": 133.91010323053808,
+      "loading": 0.29757800717897354,
+      "drop_pu": 0.00434991215807312,
+      "loss_mw": 0.05594757713130571
+    },
+    "Barrasford\u2013Wark": {
+      "km": 6.0,
+      "mw": 10.579199955761935,
+      "amps_per_circuit": 98.89947478603311,
+      "loading": 0.21977661063562914,
+      "drop_pu": 0.004818949624639342,
+      "loss_mw": 0.04577557660862097
+    },
+    "Wark\u2013Bellingham": {
+      "km": 7.0,
+      "mw": 7.104350815427155,
+      "amps_per_circuit": 66.74143100080666,
+      "loading": 0.14831429111290367,
+      "drop_pu": 0.0037940295132260797,
+      "loss_mw": 0.024321125621713482
+    },
+    "Bellingham\u2013Falstone": {
+      "km": 14.0,
+      "mw": 1.0390717179026112,
+      "amps_per_circuit": 9.799433394836491,
+      "loading": 0.0217765186551922,
+      "drop_pu": 0.0011141307267581219,
+      "loss_mw": 0.0010486355318694161
+    }
+  },
+  "voltage_pu": {
+    "Hexham": 1.0,
+    "Corbridge": 0.9922848701324951,
+    "Haydon Bridge": 0.9914204055155252,
+    "Chollerford": 0.9893373059953688,
+    "Barrasford": 0.9849873938372957,
+    "Wark": 0.9801684442126564,
+    "Bellingham": 0.9763744146994303,
+    "Falstone": 0.9752602839726722
+  },
+  "min_voltage_pu": 0.9752602839726722,
+  "losses_mw": 0.49956685144915486,
+  "max_loading": 0.3647180813948736,
+  "n1": {
+    "Hexham\u2013Corbridge one circuit out": {
+      "max_loading": 0.7037239336241651,
+      "min_v": 0.9752602839726722,
+      "loss_mw": 0.6168985972130943
+    },
+    "Hexham\u2013Haydon Bridge one circuit out": {
+      "max_loading": 0.4695448618391703,
+      "min_v": 0.9752602839726722,
+      "loss_mw": 0.5866258814274234
+    },
+    "Hexham\u2013Chollerford one circuit out": {
+      "max_loading": 0.7294361627897472,
+      "min_v": 0.9644426317222694,
+      "loss_mw": 0.6704543562643681
+    },
+    "Chollerford\u2013Barrasford one circuit out": {
+      "max_loading": 0.5951560143579471,
+      "min_v": 0.9708669697317555,
+      "loss_mw": 0.5561493132098444
+    },
+    "Barrasford\u2013Wark one circuit out": {
+      "max_loading": 0.4395532212712583,
+      "min_v": 0.9704170412981434,
+      "loss_mw": 0.5455938197494216
+    },
+    "Wark\u2013Bellingham one circuit out": {
+      "max_loading": 0.3647180813948736,
+      "min_v": 0.9714619082430065,
+      "loss_mw": 0.5238961744689934
+    },
+    "Bellingham\u2013Falstone one circuit out": {
+      "max_loading": 0.3647180813948736,
+      "min_v": 0.974146153245914,
+      "loss_mw": 0.5006154869810243
+    }
+  },
+  "n1_worst_loading": 0.7294361627897472,
+  "n1_min_voltage_pu": 0.9644426317222694,
+  "route_km": 55.0,
+  "circuit_km": 110.0,
+  "capex_gbp": 94000000.0,
+  "gt_n1": {
+    "remaining_mw": 55.0,
+    "shortfall_mw": 46.82597446794287,
+    "battery_energy_mwh": 100.0,
+    "battery_power_mw": 25.0,
+    "battery_delivered_mw": 25.0,
+    "immediate_unserved_mw": 21.82597446794287,
+    "battery_duration_at_rated_power_h": 4.0,
+    "unserved_after_battery_mw": 46.82597446794287,
+    "immediate_load_shed_fraction": 0.21540262781792416,
+    "post_battery_load_shed_fraction": 0.46213001693667694,
+    "energy_only_hours_if_unlimited_power": 2.1355668757830153,
+    "it_curtailment_share": 0.48383361026372895
+  },
+  "limits": {
+    "v_limit": 0.06,
+    "ampacity_a": 450.0
+  }
+}
